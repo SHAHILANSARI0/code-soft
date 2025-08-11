@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Simple Styled Page</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      line-height: 1.6;
+      margin: 0;
+      padding: 0;
+      background: #f4f4f4;
+      color: #333;
+    }
+    header {
+      background: #333;
+      color: #fff;
+      padding: 20px;
+      text-align: center;
+    }
+    nav {
+      text-align: center;
+      background: #444;
+      padding: 10px;
+    }
+    nav a {
+      color: #ddd;
+      margin: 0 10px;
+      text-decoration: none;
+      font-weight: bold;
+    }
+    nav a:hover {
+      color: #fff;
+    }
+    section {
+      padding: 20px;
+      margin: 10px auto;
+      max-width: 800px;
+      background: #fff;
+      border-radius: 5px;
+    }
+    #about img {
+      width: 120px;
+      border-radius: 50%;
+    }
+    ul {
+      list-style-type: square;
+    }
+    footer {
+      text-align: center;
+      padding: 10px;
+      background: #333;
+      color: white;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>My Simple Website</h1>
+  </header>
+  
+  <nav>
+    <a href="#about">About</a>
+    <a href="#features">Features</a>
+    <a href="#contact">Contact</a>
+  </nav>
+
+  <section id="about">
+    <h2>About</h2>
+    <img src="https://via.placeholder.com/120" alt="Profile">
+    <p>Welcome! Here's a simple webpage template styled with CSS.</p>
+  </section>
+
+  <section id="features">
+    <h2>Features</h2>
+    <ul>
+      <li>Responsive and clean layout</li>
+      <li>Stylish circular image styling</li>
+      <li>Easy navigation</li>
+    </ul>
+  </section>
+
+  <section id="contact">
+    <h2>Contact</h2>
+    <p>Have questions? <a href="mailto:you@example.com">Email me here</a>.</p>
+  </section>
+
+  <footer>
+    &copy; 2025 Simple Page. All rights reserved.
+  </footer>
+</body>
+</html>
