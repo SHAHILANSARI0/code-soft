@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Sahil's Portfolio</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h1>SHAHIL ANSARIl</h1>
+    <p>Aspiring Web Developer & BCA Student</p>
+  </header>
+
+  <section id="about">
+    <img src="profile.jpg" alt="My Photo">
+    <p>Hello! I'm Sahil, passionate about tech and web development. Currently studying BCA with AI & ML.</p>
+  </section>
+
+  <section id="skills">
+    <h2>Skills</h2>
+    <ul>
+      <li>HTML5, CSS3</li>
+      <li>Python, Java</li>
+      <li>Cyber Security Basics</li>
+    </ul>
+  </section>
+
+  <section id="projects">
+    <h2>Projects</h2>
+    <div class="project">
+      <h3>Weather App</h3>
+      <p>A weather forecast app using HTML, CSS, and JS API.</p>
+    </div>
+<div class="project">
+      <h3>Portfolio Website</h3>
+      <p>This portfolio project, built from scratch using HTML and CSS.</p>
+    </div>
+  </section>
+
+  <section id="resume">
+    <h2>Resume</h2>
+    <a href="resume.pdf" download>Download Resume (PDF)</a>
+  </section>
+
+  <section id="contact">
+    <h2>Contact Me</h2>
+    <p>Email: sahilansari.6137@gmail.com</p>
+    <p>Phone: +91-8595226205</p>
+  </section>
+
+  <footer>
+    <p>© 2025 Sahil | All rights reserved.</p>
+  </footer>
+</body>
+</html>
